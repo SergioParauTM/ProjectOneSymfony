@@ -1,0 +1,71 @@
+
+/* ESTILOS DE LA PAGINA WEB */
+
+body { 
+    
+    margin-bottom: 40px;
+    margin-top: 20px;
+
+}
+
+.textoInicio{
+
+    font-family: Helvetica, serif;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.buttProduct{
+    align-content: center;
+    padding-top: 20px;
+    text-align: center;
+    margin-top: 60px;
+    
+    
+
+}
+
+.buttSelectProd{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 25px 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    
+}
+
+.buttVolverAtras{
+    align-content: center;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.buttSelectVolverAtras{
+
+    background-color: #CCCCCC ;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline;
+    padding: 30px 90px;
+
+
+}
+
+.imgProductdiv{
+    text-align: center;
+}
+
+.Imgproduct{
+    margin-top: 40px;
+    
+}

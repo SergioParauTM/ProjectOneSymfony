@@ -1,0 +1,7 @@
+proj_homepage:
+    path:     /
+    defaults: { _controller: ProjBundle:Default:index }
+
+proj_productoSelected:
+    path:     /Producto/{nProdcut}
+    defaults: { _controller: ProjBundle:Default:productoSelected }

@@ -1,0 +1,60 @@
+{%  extends '::base.html.twig' %}
+
+
+{% block title %}
+
+    {% if nProduct == 1  %}
+
+        NCars
+
+    {% elseif  nProduct  == "2" %}
+
+        Ncars Mustang
+
+    {% else %}
+
+        {% endif %}
+
+    {% endblock %}
+
+
+{% block body %}
+
+
+
+
+
+    {% if nProduct == 1  %}
+
+
+        <div class="textoInicio">Nissan Skyline GTR R35 </div>
+
+        <div class="imgProductdiv">
+            <img src="http://www.performance-car-guide.co.uk/images/L-Nissan-Skyline-GT-R-R35.jpg" alt="Mountain View" style="width:404px;height:228px;"  class="Imgproduct">
+        </div>
+
+
+    {% elseif  nProduct  == "2" %}
+
+
+        <div class="textoInicio">Ford Mustang Boss 429</div>
+
+        <div class="imgProductdiv">
+            <img src="http://www.topcarrating.com/ford/1969-ford-mustang-boss-429-6.jpg" alt="Mountain View" style="width:304px;height:228px;" class="Imgproduct">
+        </div>
+        <div class="imgProductdiv">
+            <img src="http://www.topcarrating.com/ford/1969-ford-mustang-boss-429-4.jpg" alt="Mountain View" style="width:304px;height:228px;" class="Imgproduct">
+        </div>
+
+
+    {% else %}
+
+<div> <h1> Error 404</h1>  </div>
+        {%endif%}
+
+
+
+    <div class="buttVolverAtras">  <a href="http://localhost:8000" class="buttSelectVolverAtras"><   Volver a productos</a> </div>
+
+
+{% endblock  %}
